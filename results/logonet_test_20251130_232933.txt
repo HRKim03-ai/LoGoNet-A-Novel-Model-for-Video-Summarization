@@ -1,0 +1,5 @@
+Model: logonet
+Checkpoint: checkpoints/logonet_best.pth
+Test Loss: 0.063212
+Test Kendall's Tau: 0.1336
+Test Spearman's Rho: 0.1909

@@ -1,0 +1,5 @@
+Model: edsnet
+Checkpoint: checkpoints/edsnet_final/edsnet_best.pth
+Test Loss: 0.045748
+Test Kendall's Tau: 0.1158
+Test Spearman's Rho: 0.1659

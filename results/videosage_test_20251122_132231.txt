@@ -1,0 +1,5 @@
+Model: videosage
+Checkpoint: checkpoints/videosage_final/videosage_best.pth
+Test Loss: 0.044315
+Test Kendall's Tau: 0.0810
+Test Spearman's Rho: 0.1175

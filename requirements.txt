@@ -1,0 +1,16 @@
+# Core dependencies
+torch>=1.12.0
+torchvision>=0.13.0
+numpy>=1.21.0
+scipy>=1.7.0
+tqdm>=4.62.0
+h5py>=3.6.0
+
+# Optional: Weights & Biases (for experiment tracking)
+# wandb>=0.12.0
+
+# Note: This project was developed with PyTorch 1.12+ and tested on:
+# - Python 3.8+
+# - CUDA 11.3+ (for GPU support)
+# - RTX 3080 (10GB VRAM)
+

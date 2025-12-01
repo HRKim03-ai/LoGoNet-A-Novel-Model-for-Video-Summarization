@@ -1,0 +1,5 @@
+Model: csta
+Checkpoint: checkpoints/csta_final/csta_best.pth
+Test Loss: 0.057881
+Test Kendall's Tau: 0.1196
+Test Spearman's Rho: 0.1717
