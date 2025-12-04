@@ -128,10 +128,10 @@ python test.py \
 
 | 모델 | 배치 사이즈 | Epochs | Peak LR | LR Scheduler |
 |------|-----------|--------|---------|--------------|
-| CSTA | 4 | 50 | 3e-4 | Warmup(3) + Cosine |
-| VideoSAGE | 512 | 50 | 5e-4 | Warmup(5) + Cosine |
+| CSTA | 4 | 50 | 3e-4 | Warmup(3) + Cosine annealing|
+| VideoSAGE | 512 | 50 | 5e-4 | Warmup(5) + Cosine annealing |
 | EDSNet | 112 | 300 | 5e-5 | Fixed |
-| LoGoNet | 8 | 50 | 1e-4 | Warmup(10) + Cosine |
+| LoGoNet | 8 | 50 | 1e-4 | Warmup(10) + Cosine annealing |
 
 ### 평가 지표
 
@@ -156,10 +156,11 @@ python test.py \
 
 ## 📚 참고 문헌
 
-1. CSTA: CNN-based Spatiotemporal Attention for Video Summarization (CVPR 2024)
-2. VideoSAGE: Video Summarization with Graph Representation Learning (CVPRW 2024)
-3. EDSNet: Efficient-DSNet (arXiv 2024)
-4. MR.HiSum Dataset
+1. MR.HiSum Dataset
+2. Rethinking the Evaluation of Video Summaries(CVPR 2019)
+3. CSTA: CNN-based Spatiotemporal Attention for Video Summarization (CVPR 2024)
+4. VideoSAGE: Video Summarization with Graph Representation Learning (CVPR 2024)
+5. EDSNet: Efficient-DSNet (arXiv 2024)
 
 ## 📄 라이선스
 
